@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokédex Nacional</title>
+    </head>
+    <body>
+       
+        <section>
+            
+            <form>
+                
+                <div>
+                    <h1>Pokédex Nacional</h1>
+     
+                    <label for="numero">Digite o número do Pokémon de acordo com o Pokedex Nacional</legend> 
+                    <input type="number" name="numero" id="numero-pokemon" step="1" min="0">
+                </div>
+                <div>
+                    <label for="nome-do-pokemon">Nome Do Pokémon</label>
+                    <input type="text"name="nome-do-pokemon">
+                </div>
+                
+                <div>
+                    <fieldset>
+                        <legend>Qual o tipo do pokémon?</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" name="pokemon" id="pokemon" checked>
+                                <label for="primario">Primário</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="pokemon" id="pokemon">
+                                <label for="secundario">Secundário</label>
+                             </li>
+                        </ul>
+                            
+                    </fieldset>
+        
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Qual o tipo 1 do pokémon?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon" checked>
+                                    <label for="fogo">Água</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="fogo">Fogo</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="fada">Fada</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="dragao">Dragão</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="terra">Terra</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="pedra">Pedra</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="noturno">Noturno</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="eletrico">Elétrico</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <label for="psquiquico">Psíquico</label>
+                                </li>
+                             </ul>
+                    </fieldset>
+                </div>
+                            
+                    <div>
+                        <fieldset>
+                            <legend>Qual o tipo 2 do pokémon?</legend>
+                            
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon" checked>
+                                        <label for="fogo">Água</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="fogo">Fogo</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="fada">Fada</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="dragao">Dragão</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="terra">Terra</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="pedra">Pedra</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="noturno">Noturno</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="eletrico">Elétrico</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="pokemon" id="pokemon">
+                                        <label for="psquiquico">Psíquico</label>
+                                    </li>
+                                </ul>
+                             </fieldset>
+                     </div>
+                <div>
+                    <fieldset>
+                        <legend>O pokémon é lendário?</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" name="pokemon" id="pokemon" checked>
+                                <label for="sim">Sim</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="pokemon" id="pokemon">
+                                <label for="nao">Não</label>
+                             </li>    
+                        </ul>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Qual a cor do seu pokémon?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="cores" id="cores" checked>
+                                    <label for="Azul">Azul</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="amarelo">Amarelo</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="Branco">Branco</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="Cinza">Cinza</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="marrom">Marrom</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="preto">Preto</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="vermelho">Vermelho</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="verde">Verde</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="roxo">Roxo</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cores" id="cores">
+                                    <label for="rosa">Rosa</label>
+                                </li>
+                             </ul>
+                    </fieldset>
+                </div>
+                <div>
+                    <h4>Qual a geração do seu pokémon?</h4>
+                    <select name="pokemon" id="pokemon">
+                        <option value="geração 1">Primeira Geração</option>
+                        <option value="geração 2">SegundaGeração</option>
+                        <option value="geração 3">Terceira Geração</option>
+                        <option value="geração 4">Quarta Geração</option>
+                        <option value="geração 5">QuintaGeração</option>
+                        <option value="geração 6">Sexta Geração</option>
+                        <option value="geração 7">Sétima Geração</option>
+                    </select>
+                </div>
+                <div>
+                    
+                        <label for="numero-do-pokemon">Qual o dano máximo que seu pokémon pode sofrer?</label> 
+                        <input type="number" name="numero-do-pokemon" id="dano" step="1" min="0" max="600">
+                    
+                
+                </div>
+                <div>
+                    <label for="ataque-basico">Ataque básico do seu pokémon é:</label>
+                    <input type="number" name="pokemon" id="hp" step="1" min="1" max=255>
+                </div>
+                <div>
+            
+                        <label for="defesa">A defesa base do seu pokémon é de:</label>
+                        <input type="number" name="pokemon" id="ataque" step="1" min="0">
+            
+                </div>
+                <div>
+                    <label for="defesa">O ataque especial do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+            
+                </div>
+                <div>
+                    <label for="defesa">A defesa especial do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+            
+                </div>
+                <div>
+                    <label for="defesa">A velocidade do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+            
+                </div>
+            
+                <div>
+                    <section id="pokemon">
+                        <label for="pokemon">Digite aqui o peso do seu pokémon:</label>
+                        <input type="altura" name="peso" id="peso">
+                    </section>
+                </div>
+                <div>
+                    <section id="campo-url">
+                        <label for="altura">Digite aqui a altura do seu pokémon</label>
+                        <input type="altura" name="altura" id="altura">
+                    </section>
+                </div>
+                <div>
+                    <label for="captura">Qual a taxa de captura?</label>
+                    <input type="number" name="pokemon" id="captura" step="1" min="0" max="255">
+                </div>
+               </form>
+
+
+        </section>
+    
+
+    </body>
+
+</html>
