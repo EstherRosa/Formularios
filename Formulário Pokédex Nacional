@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokédex Nacional</title>
+        <title>Pokedex Nacional</title>
     </head>
     <body>
        
@@ -12,7 +12,7 @@
             <form>
                 
                 <div>
-                    <h1>Pokédex Nacional</h1>
+                    <h1>Pokedex Nacional</h1>
      
                     <label for="numero">Digite o número do Pokémon de acordo com o Pokedex Nacional</legend> 
                     <input type="number" name="numero" id="numero-pokemon" step="1" min="0">
@@ -205,16 +205,45 @@
                     </fieldset>
                 </div>
                 <div>
-                    <h4>Qual a geração do seu pokémon?</h4>
-                    <select name="pokemon" id="pokemon">
-                        <option value="geração 1">Primeira Geração</option>
-                        <option value="geração 2">SegundaGeração</option>
-                        <option value="geração 3">Terceira Geração</option>
-                        <option value="geração 4">Quarta Geração</option>
-                        <option value="geração 5">QuintaGeração</option>
-                        <option value="geração 6">Sexta Geração</option>
-                        <option value="geração 7">Sétima Geração</option>
-                    </select>
+                    <fieldset>
+                        <legend>Qual a geração do seu pokémon?</legend>
+                            <ul>
+                               
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="amarelo">Primeira Geração</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="segunda geracao">Segunda Geração</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="terceira geraçao">Terceira Geração</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="quarta geração">Quarta Geração</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="quinta geração">Quinta Geração</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="sexta geração">Sexta geração</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="geração" id="geração">
+                                    <label for="setima geração">Sétima Geração</label>
+                                </li>
+                                
+                             </ul>
+                    </fieldset>
                 </div>
                 <div>
                     
