@@ -14,29 +14,15 @@
                 <div>
                     <h1>Pokedex Nacional</h1>
      
-                    <label for="numero">Digite o número do Pokémon de acordo com o Pokedex Nacional</legend> 
+                    <label for="numero-pokemon">Digite o número do Pokémon de acordo com o Pokedex Nacional</label> 
                     <input type="number" name="numero" id="numero-pokemon" step="1" min="0">
                 </div>
                 <div>
                     <label for="nome-do-pokemon">Nome Do Pokémon</label>
-                    <input type="text"name="nome-do-pokemon">
+                    <input type="text" name="nome-do-pokemon">
                 </div>
                 
                 <div>
-                    <fieldset>
-                        <legend>Qual o tipo do pokémon?</legend>
-                        <ul>
-                            <li>
-                                <input type="radio" name="pokemon" id="pokemon" checked>
-                                <label for="primario">Primário</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="pokemon" id="pokemon">
-                                <label for="secundario">Secundário</label>
-                             </li>
-                        </ul>
-                            
-                    </fieldset>
         
                 </div>
                 <div>
@@ -44,44 +30,44 @@
                         <legend>Qual o tipo 1 do pokémon?</legend>
                             <ul>
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon" checked>
+                                    <input type="radio" name="tipo-1-pokemon" id="agua" >
                                     <label for="fogo">Água</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="fogo">
                                     <label for="fogo">Fogo</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="fada">
                                     <label for="fada">Fada</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="dragao">
                                     <label for="dragao">Dragão</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="terra">
                                     <label for="terra">Terra</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="pedra">
                                     <label for="pedra">Pedra</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="noturno">
                                     <label for="noturno">Noturno</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="eletrico">
                                     <label for="eletrico">Elétrico</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="pokemon" id="pokemon">
+                                    <input type="radio" name="tipo-1-pokemon" id="psquiquico">
                                     <label for="psquiquico">Psíquico</label>
                                 </li>
                              </ul>
@@ -94,45 +80,45 @@
                             
                                 <ul>
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon" checked>
-                                        <label for="fogo">Água</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="agua-2" >
+                                        <label for="fogo-2">Água</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="fogo">Fogo</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="fogo-2">
+                                        <label for="fogo-2">Fogo</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="fada">Fada</label>
-                                    </li>
-                                    
-                                    <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="dragao">Dragão</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="terra">Terra</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="fada-2">
+                                        <label for="fada-2">Fada</label>
                                     </li>
                                     
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="pedra">Pedra</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="dragao-2">
+                                        <label for="dragao-2">Dragão</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="tipo-2-pokemon" id="terra-2">
+                                        <label for="terra-2">Terra</label>
                                     </li>
                                     
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="noturno">Noturno</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="pedra-2">
+                                        <label for="pedra-2">Pedra</label>
                                     </li>
                                     
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="eletrico">Elétrico</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="noturno-2">
+                                        <label for="noturno-2">Noturno</label>
                                     </li>
                                     
                                     <li>
-                                        <input type="radio" name="pokemon" id="pokemon">
-                                        <label for="psquiquico">Psíquico</label>
+                                        <input type="radio" name="tipo-2-pokemon" id="eletrico-2">
+                                        <label for="eletrico-2">Elétrico</label>
+                                    </li>
+                                    
+                                    <li>
+                                        <input type="radio" name="tipo-2-pokemon" id="psquico-2">
+                                        <label for="psquiquico-2">Psíquico</label>
                                     </li>
                                 </ul>
                              </fieldset>
@@ -142,12 +128,12 @@
                         <legend>O pokémon é lendário?</legend>
                         <ul>
                             <li>
-                                <input type="radio" name="pokemon" id="pokemon" checked>
-                                <label for="sim">Sim</label>
+                                <input type="radio" name="pokemon-lendario" id="lendario-sim">
+                                <label for="lendario-sim">Sim</label>
                             </li>
                             <li>
-                                <input type="radio" name="pokemon" id="pokemon">
-                                <label for="nao">Não</label>
+                                <input type="radio" name="pokemon-lendario" id="lendario-nao">
+                                <label for="lendario-nao">Não</label>
                              </li>    
                         </ul>
                     </fieldset>
@@ -157,48 +143,48 @@
                         <legend>Qual a cor do seu pokémon?</legend>
                             <ul>
                                 <li>
-                                    <input type="radio" name="cores" id="cores" checked>
-                                    <label for="Azul">Azul</label>
+                                    <input type="radio" name="cores" id="azul">
+                                    <label for="azul">Azul</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="amarelo">
                                     <label for="amarelo">Amarelo</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
-                                    <label for="Branco">Branco</label>
+                                    <input type="radio" name="cores" id="branco">
+                                    <label for="branco">Branco</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
-                                    <label for="Cinza">Cinza</label>
+                                    <input type="radio" name="cores" id="cinza">
+                                    <label for="cinza">Cinza</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="marrom">
                                     <label for="marrom">Marrom</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="preto">
                                     <label for="preto">Preto</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="vermelho">
                                     <label for="vermelho">Vermelho</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="verde">
                                     <label for="verde">Verde</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="roxo">
                                     <label for="roxo">Roxo</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="cores" id="cores">
+                                    <input type="radio" name="cores" id="rosa">
                                     <label for="rosa">Rosa</label>
                                 </li>
                              </ul>
@@ -210,36 +196,36 @@
                             <ul>
                                
                                 <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="amarelo">Primeira Geração</label>
+                                    <input type="radio" name="pokemon-geracao" id="primeira-geracao">
+                                    <label for="primeira-geracao">Primeira Geração</label>
                                 </li>
                                 <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="segunda geracao">Segunda Geração</label>
-                                </li>
-                                
-                                <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="terceira geraçao">Terceira Geração</label>
-                                </li>
-                                <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="quarta geração">Quarta Geração</label>
+                                    <input type="radio" name="pokemon-geracao" id="segunda-geracao">
+                                    <label for="segunda-geracao">Segunda Geração</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="quinta geração">Quinta Geração</label>
+                                    <input type="radio" name="pokemon-geracao" id="terceira-geracao">
+                                    <label for="terceira-geracao">Terceira Geração</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="pokemon-geracao" id="quarta-geracao">
+                                    <label for="quarta-geracao">Quarta Geração</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="sexta geração">Sexta geração</label>
+                                    <input type="radio" name="pokemon-geracao" id="quinta-geracao">
+                                    <label for="quinta-geracao">Quinta Geração</label>
                                 </li>
                                 
                                 <li>
-                                    <input type="radio" name="geração" id="geração">
-                                    <label for="setima geração">Sétima Geração</label>
+                                    <input type="radio" name="pokemon-geracao" id="sexta-geracao">
+                                    <label for="sexta-geracao">Sexta geração</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" name="pokemon-geracao" id="setima-geracao">
+                                    <label for="setima-geracao">Sétima Geração</label>
                                 </li>
                                 
                              </ul>
@@ -247,52 +233,50 @@
                 </div>
                 <div>
                     
-                        <label for="numero-do-pokemon">Qual o dano máximo que seu pokémon pode sofrer?</label> 
-                        <input type="number" name="numero-do-pokemon" id="dano" step="1" min="0" max="600">
+                        <label for="dano-do-pokemon">Qual o dano máximo que seu pokémon pode sofrer?</label> 
+                        <input type="number" name="numero-do-pokemon" id="dano-do-pokemon" step="1" min="0" max="600">
                     
                 
                 </div>
                 <div>
-                    <label for="ataque-basico">Ataque básico do seu pokémon é:</label>
-                    <input type="number" name="pokemon" id="hp" step="1" min="1" max=255>
+                    <label for="ataque-base">Ataque base do seu pokémon é:</label>
+                    <input type="number" name="pokemon" id="ataque-base" step="1" min="1" max=255>
                 </div>
                 <div>
             
-                        <label for="defesa">A defesa base do seu pokémon é de:</label>
-                        <input type="number" name="pokemon" id="ataque" step="1" min="0">
+                        <label for="defesa-base">A defesa base do seu pokémon é de:</label>
+                        <input type="number" name="pokemon" id="defesa-base" step="1" min="0">
             
                 </div>
                 <div>
-                    <label for="defesa">O ataque especial do seu pokémon é de:</label>
-                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+                    <label for="ataque-especial">O ataque especial do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="ataque-especial" step="1" min="0">
             
                 </div>
                 <div>
-                    <label for="defesa">A defesa especial do seu pokémon é de:</label>
-                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+                    <label for="defesa-especial">A defesa especial do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="defesa-especial" step="1" min="0">
             
                 </div>
                 <div>
-                    <label for="defesa">A velocidade do seu pokémon é de:</label>
-                    <input type="number" name="pokemon" id="ataque" step="1" min="0">
+                    <label for="velocidade-pokemon">A velocidade do seu pokémon é de:</label>
+                    <input type="number" name="pokemon" id="velocidade-pokemon" step="1" min="0">
             
                 </div>
             
                 <div>
-                    <section id="pokemon">
-                        <label for="pokemon">Digite aqui o peso do seu pokémon:</label>
-                        <input type="altura" name="peso" id="peso">
-                    </section>
+                    <label for="peso">Peso do pokémon</label>
+                    <input type="text" name="peso">
+            
                 </div>
                 <div>
-                    <section id="campo-url">
-                        <label for="altura">Digite aqui a altura do seu pokémon</label>
-                        <input type="altura" name="altura" id="altura">
-                    </section>
+                        <label for="altura">Altura do pokémon</label>
+                        <input type="text" name="altura">
+                
                 </div>
                 <div>
                     <label for="captura">Qual a taxa de captura?</label>
-                    <input type="number" name="pokemon" id="captura" step="1" min="0" max="255">
+                    <input type="number" name="taxa-captura-pokemon" id="captura" step="1" min="0" max="255">
                 </div>
                </form>
 
